@@ -26,7 +26,20 @@ template <typename TChar, typename TString, typename TView>
 requires CharType<TChar> && 
         StringType<TString, TChar> && 
         StringViewType<TView, TChar>
-class csvparse {
+class csvparse final {
+private:
+    size_t m_max_split;
+    TString m_separator;
+    TChar m_quoat;
+
+    TString m_line;
+    std::vector<TString> m_extracted_columns;
+    std::vector<bool> m_quoated;
+    
+    bool m_is_complete;
+    
+    TString m_rebuilt_line;
+    TView m_rebuilt_line_view;
 public:
     csvparse(size_t max_split = 0, 
             const TString& separator = TString(1, ','), 
@@ -143,7 +156,7 @@ public:
                 m_rebuilt_line.append(column);
             }
         }
-        
+
         m_rebuilt_line_view = TView(m_rebuilt_line);
         return m_rebuilt_line_view;
     }
@@ -154,7 +167,7 @@ public:
         }
         return m_rebuilt_line_view;
     }
-    
+
     size_t size() const {
         return m_extracted_columns.size();
     }
@@ -165,18 +178,18 @@ private:
             line.pop_back();
         }
     }
-    
+
     void parse_line() {
         m_quoated.clear();
         m_extracted_columns.clear();
-        
+
         size_t pos = 0;
         bool in_quotes = false;
         size_t current_column_start = 0;
         m_is_complete = true;
-        
+
         size_t remaining_splits = (m_max_split > 0) ? m_max_split - 1 : std::numeric_limits<size_t>::max();
-        
+
         while (pos < m_line.size()) {
             if (in_quotes) {
                 if (m_line[pos] == m_quoat) {
@@ -211,53 +224,39 @@ private:
                 }
             }
         }
-        
+
         if (current_column_start <= m_line.size()) {
             if (m_max_split > 0 && m_extracted_columns.size() >= m_max_split) {
                 return;
             }
-            
+
             TString column = extract_column(current_column_start, m_line.size());
             m_extracted_columns.push_back(column);
         }
-        
+
         if (in_quotes) {
             m_is_complete = false;
         }
     }
-    
+
     TString extract_column(size_t start, size_t end) {
         TString column = m_line.substr(start, end - start);
         bool is_quoted = false;
-        
+
         if (!column.empty() && column.front() == m_quoat && column.back() == m_quoat) {
             is_quoted = true;
             column = column.substr(1, column.size() - 2);
-            
+
             size_t pos = 0;
             while ((pos = column.find(TString(2, m_quoat), pos)) != TString::npos) {
                 column.erase(pos, 1);
                 pos += 1;
             }
         }
-        
+
         m_quoated.push_back(is_quoted);
         return column;
     }
-
-private:
-    size_t m_max_split;
-    TString m_separator;
-    TChar m_quoat;
-    
-    TString m_line;
-    std::vector<TString> m_extracted_columns;
-    std::vector<bool> m_quoated;
-    
-    bool m_is_complete;
-    
-    TString m_rebuilt_line;
-    TView m_rebuilt_line_view;
 };
 
 }
