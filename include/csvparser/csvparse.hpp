@@ -250,7 +250,7 @@ private:
             size_t pos = 0;
             while ((pos = column.find(TString(2, m_quoat), pos)) != TString::npos) {
                 column.erase(pos, 1);
-                pos += 1;
+                ++pos;
             }
         }
 
