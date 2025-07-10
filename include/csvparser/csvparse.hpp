@@ -1,4 +1,4 @@
-#ifndef __MASSNS_CSVPARSE_HPP__
+﻿#ifndef __MASSNS_CSVPARSE_HPP__
 #define __MASSNS_CSVPARSE_HPP__
 
 #include <string>
@@ -187,8 +187,6 @@ private:
         bool in_quotes = false;
         size_t current_column_start = 0;
         m_is_complete = true;
-
-        size_t remaining_splits = (m_max_split > 0) ? m_max_split - 1 : std::numeric_limits<size_t>::max();
 
         while (pos < m_line.size()) {
             if (in_quotes) {
