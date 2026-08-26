@@ -5,6 +5,12 @@ FetchContent_Declare(
     GIT_TAG release-1.12.1
 )
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+
+# Windows固有のGoogleTest設定
+if(WIN32)
+    set(gtest_disable_pthreads ON CACHE BOOL "" FORCE)
+endif()
+
 FetchContent_MakeAvailable(googletest)
 
 add_executable(csvparser_test 

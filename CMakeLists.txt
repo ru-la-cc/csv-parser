@@ -5,6 +5,18 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+# Windows固有の設定
+if(WIN32)
+    # MSVCコンパイラの警告設定
+    if(MSVC)
+        add_compile_options(/W4 /WX- /utf-8)
+        add_compile_definitions(_CRT_SECURE_NO_WARNINGS)
+    endif()
+    
+    # Windowsでの実行ファイル拡張子
+    set(CMAKE_EXECUTABLE_SUFFIX ".exe")
+endif()
+
 add_library(csvparser INTERFACE)
 target_include_directories(csvparser INTERFACE 
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>

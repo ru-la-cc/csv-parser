@@ -1,3 +1,7 @@
+# はじめに
+
+この文章はCursorのAgentに書かせたのだ
+
 # ビルド手順
 
 このドキュメントでは、csvparserライブラリのビルド方法について説明します。
@@ -10,21 +14,23 @@
 
 ## ビルド手順
 
-### 1. リポジトリのクローン
+### Unix系システム (Linux/macOS)
+
+#### 1. リポジトリのクローン
 
 ```bash
 git clone https://github.com/yourusername/csvparser.git
 cd csvparser
 ```
 
-### 2. ビルドディレクトリの作成
+#### 2. ビルドディレクトリの作成
 
 ```bash
 mkdir -p build
 cd build
 ```
 
-### 3. CMakeの実行
+#### 3. CMakeの実行
 
 ```bash
 cmake ..
@@ -41,7 +47,7 @@ cmake ..
 cmake .. -DBUILD_TESTS=OFF -DBUILD_SAMPLE=ON
 ```
 
-### 4. ビルドの実行
+#### 4. ビルドの実行
 
 ```bash
 cmake --build .
@@ -53,7 +59,7 @@ cmake --build .
 make
 ```
 
-### 5. テストの実行 (テストを有効にした場合)
+#### 5. テストの実行 (テストを有効にした場合)
 
 ```bash
 ctest
@@ -65,11 +71,50 @@ ctest
 ./tests/csvparser_test
 ```
 
-### 6. サンプルプログラムの実行 (サンプルを有効にした場合)
+#### 6. サンプルプログラムの実行 (サンプルを有効にした場合)
 
 ```bash
 ./csvparser_sample
 ```
+
+### Windowsでのビルド
+
+#### 自動ビルド（推奨）
+
+##### MSVC (Visual Studio)
+```cmd
+build-msvc.bat
+```
+
+##### MinGW
+```cmd
+build.bat
+```
+
+#### 手動ビルド
+
+##### MSVC
+```cmd
+mkdir build-msvc
+cd build-msvc
+cmake .. -G "Visual Studio 17 2022" -A x64
+cmake --build . --config Release
+```
+
+##### MinGW
+```cmd
+mkdir build
+cd build
+cmake .. -G "MinGW Makefiles"
+cmake --build .
+```
+
+#### Windows固有の注意事項
+
+- ソースファイルはUTF-8 BOM付きで保存されています
+- 実行ファイルは `.exe` 拡張子で生成されます
+- MSVCコンパイラでは `/utf-8` オプションが自動的に適用されます
+- ビルドディレクトリ（`build-msvc/`、`build/`）は `.gitignore` で除外されています
 
 ## インストール
 
