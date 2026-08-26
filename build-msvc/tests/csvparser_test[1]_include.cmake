@@ -1,0 +1,5 @@
+if(EXISTS "D:/Git/csv-parser/build-msvc/tests/csvparser_test[1]_tests.cmake")
+  include("D:/Git/csv-parser/build-msvc/tests/csvparser_test[1]_tests.cmake")
+else()
+  add_test(csvparser_test_NOT_BUILT csvparser_test_NOT_BUILT)
+endif()

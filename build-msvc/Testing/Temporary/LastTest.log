@@ -1,0 +1,367 @@
+Start testing: Jul 10 21:03 東京 (標準時)
+----------------------------------------------------------
+1/14 Testing: CsvParseTest.BasicParsing
+1/14 Test: CsvParseTest.BasicParsing
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.BasicParsing" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.BasicParsing" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.BasicParsing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.BasicParsing
+[       OK ] CsvParseTest.BasicParsing (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.BasicParsing" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.BasicParsing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/14 Testing: CsvParseTest.QuotedParsing
+2/14 Test: CsvParseTest.QuotedParsing
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.QuotedParsing" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.QuotedParsing" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.QuotedParsing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.QuotedParsing
+[       OK ] CsvParseTest.QuotedParsing (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.QuotedParsing" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.QuotedParsing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/14 Testing: CsvParseTest.QuotedWithComma
+3/14 Test: CsvParseTest.QuotedWithComma
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.QuotedWithComma" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.QuotedWithComma" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.QuotedWithComma
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.QuotedWithComma
+[       OK ] CsvParseTest.QuotedWithComma (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.QuotedWithComma" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.QuotedWithComma" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/14 Testing: CsvParseTest.EscapedQuotes
+4/14 Test: CsvParseTest.EscapedQuotes
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.EscapedQuotes" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.EscapedQuotes" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.EscapedQuotes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.EscapedQuotes
+[       OK ] CsvParseTest.EscapedQuotes (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.EscapedQuotes" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.EscapedQuotes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/14 Testing: CsvParseTest.EmptyFields
+5/14 Test: CsvParseTest.EmptyFields
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.EmptyFields" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.EmptyFields" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.EmptyFields
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.EmptyFields
+[       OK ] CsvParseTest.EmptyFields (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.EmptyFields" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.EmptyFields" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/14 Testing: CsvParseTest.IncompleteQuote
+6/14 Test: CsvParseTest.IncompleteQuote
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.IncompleteQuote" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.IncompleteQuote" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.IncompleteQuote
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.IncompleteQuote
+[       OK ] CsvParseTest.IncompleteQuote (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.IncompleteQuote" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.IncompleteQuote" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/14 Testing: CsvParseTest.AddString
+7/14 Test: CsvParseTest.AddString
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.AddString" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.AddString" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.AddString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.AddString
+[       OK ] CsvParseTest.AddString (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.AddString" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.AddString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/14 Testing: CsvParseTest.MaxSplit
+8/14 Test: CsvParseTest.MaxSplit
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.MaxSplit" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.MaxSplit" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.MaxSplit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.MaxSplit
+[       OK ] CsvParseTest.MaxSplit (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.MaxSplit" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.MaxSplit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/14 Testing: CsvParseTest.CustomSeparator
+9/14 Test: CsvParseTest.CustomSeparator
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.CustomSeparator" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.CustomSeparator" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.CustomSeparator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.CustomSeparator
+[       OK ] CsvParseTest.CustomSeparator (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.CustomSeparator" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.CustomSeparator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/14 Testing: CsvParseTest.CustomQuote
+10/14 Test: CsvParseTest.CustomQuote
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.CustomQuote" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.CustomQuote" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.CustomQuote
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.CustomQuote
+[       OK ] CsvParseTest.CustomQuote (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.CustomQuote" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.CustomQuote" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/14 Testing: CsvParseTest.NewlinesInQuotes
+11/14 Test: CsvParseTest.NewlinesInQuotes
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.NewlinesInQuotes" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.NewlinesInQuotes" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.NewlinesInQuotes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.NewlinesInQuotes
+[       OK ] CsvParseTest.NewlinesInQuotes (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.NewlinesInQuotes" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.NewlinesInQuotes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/14 Testing: CsvParseTest.LineBuild
+12/14 Test: CsvParseTest.LineBuild
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.LineBuild" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.LineBuild" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.LineBuild
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.LineBuild
+[       OK ] CsvParseTest.LineBuild (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.LineBuild" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.LineBuild" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/14 Testing: CsvParseTest.WideCharTest
+13/14 Test: CsvParseTest.WideCharTest
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.WideCharTest" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.WideCharTest" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.WideCharTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.WideCharTest
+[       OK ] CsvParseTest.WideCharTest (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.WideCharTest" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.WideCharTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/14 Testing: CsvParseTest.GetLine
+14/14 Test: CsvParseTest.GetLine
+Command: "D:/Git/csv-parser/build-msvc/tests/Release/csvparser_test.exe" "--gtest_filter=CsvParseTest.GetLine" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/csv-parser/build-msvc/tests
+"CsvParseTest.GetLine" start time: Jul 10 21:03 東京 (標準時)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CsvParseTest.GetLine
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvParseTest
+[ RUN      ] CsvParseTest.GetLine
+[       OK ] CsvParseTest.GetLine (0 ms)
+[----------] 1 test from CsvParseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CsvParseTest.GetLine" end time: Jul 10 21:03 東京 (標準時)
+"CsvParseTest.GetLine" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 10 21:03 東京 (標準時)

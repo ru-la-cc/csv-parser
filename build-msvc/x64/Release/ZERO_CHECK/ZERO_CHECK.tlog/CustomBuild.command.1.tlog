@@ -1,0 +1,10 @@
+^D:\GIT\CSV-PARSER\BUILD-MSVC\CMAKEFILES\0F9160572BEA4DCCB4315A0C97DA202C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Git/csv-parser -BD:/Git/csv-parser/build-msvc --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Git/csv-parser/build-msvc/csvparser.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

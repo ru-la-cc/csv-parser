@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/c367feecf46a4a82328fe4930177d5ef/googletest-populate.rule"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/59d57b145b9bfe1374ec4b0ee4dbfccf/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/b39c70c271672797bc21ba394786613a/googletest-populate-build.rule"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/b39c70c271672797bc21ba394786613a/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/b39c70c271672797bc21ba394786613a/googletest-populate-download.rule"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/b39c70c271672797bc21ba394786613a/googletest-populate-install.rule"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/b39c70c271672797bc21ba394786613a/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/b39c70c271672797bc21ba394786613a/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/b39c70c271672797bc21ba394786613a/googletest-populate-test.rule"
+		},
+		{
+			"file" : "D:/Git/csv-parser/build-msvc/_deps/googletest-subbuild/CMakeFiles/b39c70c271672797bc21ba394786613a/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/Git/csv-parser/build-msvc/_deps/googletest-src/googlemock/CMakeLists.txt
+D:/Git/csv-parser/build-msvc/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+D:/Git/csv-parser/build-msvc/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in

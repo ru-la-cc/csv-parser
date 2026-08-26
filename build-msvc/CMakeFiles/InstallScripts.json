@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Git/csv-parser/build-msvc/cmake_install.cmake",
+		"D:/Git/csv-parser/build-msvc/tests/cmake_install.cmake",
+		"D:/Git/csv-parser/build-msvc/_deps/googletest-build/cmake_install.cmake",
+		"D:/Git/csv-parser/build-msvc/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"D:/Git/csv-parser/build-msvc/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
